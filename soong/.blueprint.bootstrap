@@ -1,0 +1,6 @@
+BLUEPRINT_BOOTSTRAP_VERSION=2
+SRCDIR="."
+BLUEPRINTDIR="./build/blueprint"
+NINJA_BUILDDIR="out"
+GOROOT="./prebuilts/go/linux-x86"
+TOPNAME="Android.bp"

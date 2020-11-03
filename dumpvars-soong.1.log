@@ -1,0 +1,18 @@
+2020/11/03 14:15:26.280706 build/soong/cmd/soong_ui/main.go:182: Took 36ms to start up.
+2020/11/03 14:15:27.929617 build/soong/ui/build/sandbox_linux.go:86: [prebuilts/build-tools/linux-x86/bin/nsjail -H android-build -e -u nobody -g nogroup -B / --disable_clone_newcgroup -- /bin/bash -c if [ $(hostname) == "android-build" ]; then echo "Android" "Success"; else echo Failure; fi]
+2020/11/03 14:15:27.953819 build/soong/ui/build/sandbox_linux.go:93: Build sandboxing disabled due to nsjail error.
+2020/11/03 14:15:27.953877 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Mode: STANDALONE_ONCE
+2020/11/03 14:15:27.953892 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Jail parameters: hostname:'android-build', chroot:'', process:'/bin/bash', bind:[::]:0, max_conns_per_ip:0, time_limit:0, personality:0, daemonize:false, clone_newnet:true, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:false, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+2020/11/03 14:15:27.953905 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Mount point: '/' flags:MS_RDONLY type:'tmpfs' options:'' is_dir:true
+2020/11/03 14:15:27.953914 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Mount point: '/' -> '/' flags:MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' is_dir:true
+2020/11/03 14:15:27.953922 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Mount point: '/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true
+2020/11/03 14:15:27.953931 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Uid map: inside_uid:65534 outside_uid:1000 count:1 newuidmap:false
+2020/11/03 14:15:27.953939 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:15:27+0000] Gid map: inside_gid:65534 outside_gid:1000 count:1 newgidmap:false
+2020/11/03 14:15:27.953948 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:15:27+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():204 mount(''/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true') src:'none' dstpath:'/tmp/nsjail.1000.root//proc' failed: Operation not permitted
+2020/11/03 14:15:27.953957 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:15:27+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():209 procfs can only be mounted if the original /proc doesn't have any other file-systems mounted on top of it (e.g. /dev/null on top of /proc/kcore): Operation not permitted
+2020/11/03 14:15:27.953967 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:15:27+0000][95015] bool subproc::runChild(nsjconf_t *, int, int, int)():461 Received error message from the child process before it has been executed
+2020/11/03 14:15:27.953976 build/soong/ui/build/sandbox_linux.go:96: [E][2020-11-03T14:15:27+0000][95015] int nsjail::standaloneMode(nsjconf_t *)():146 Couldn't launch the child process
+2020/11/03 14:15:27.953984 build/soong/ui/build/sandbox_linux.go:96: [F][2020-11-03T14:15:27+0000][1] bool subproc::runChild(nsjconf_t *, int, int, int)():433 Launching child process failed
+2020/11/03 14:15:27.953996 build/soong/ui/build/sandbox_linux.go:102: nsjail failed with exit status 255
+2020/11/03 14:15:27.954017 build/soong/ui/build/exec.go:57: prebuilts/build-tools/linux-x86/bin/ckati [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=]
+2020/11/03 14:15:28.637755 build/soong/ui/build/dumpvars.go:109: TARGET_DEVICE m31

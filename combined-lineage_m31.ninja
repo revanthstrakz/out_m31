@@ -1,0 +1,8 @@
+
+builddir = out
+pool local_pool
+ depth = 100
+build _kati_always_build_: phony
+subninja out/build-lineage_m31.ninja
+subninja out/build-lineage_m31-package.ninja
+subninja out/soong/build.ninja

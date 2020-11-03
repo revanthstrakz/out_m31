@@ -1,0 +1,17 @@
+device/generic/arm64/AndroidProducts.mk
+device/generic/armv7-a-neon/AndroidProducts.mk
+device/generic/car/AndroidProducts.mk
+device/generic/goldfish/AndroidProducts.mk
+device/generic/mini-emulator-arm64/AndroidProducts.mk
+device/generic/mini-emulator-armv7-a-neon/AndroidProducts.mk
+device/generic/mini-emulator-x86/AndroidProducts.mk
+device/generic/mini-emulator-x86_64/AndroidProducts.mk
+device/generic/qemu/AndroidProducts.mk
+device/generic/trusty/AndroidProducts.mk
+device/generic/uml/AndroidProducts.mk
+device/generic/x86/AndroidProducts.mk
+device/generic/x86_64/AndroidProducts.mk
+device/google/atv/products/AndroidProducts.mk
+device/sample/products/AndroidProducts.mk
+device/samsung/m31/AndroidProducts.mk
+vendor/lineage/build/target/product/AndroidProducts.mk

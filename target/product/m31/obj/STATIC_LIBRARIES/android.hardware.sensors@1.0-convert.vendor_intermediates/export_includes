@@ -1,0 +1,1 @@
+-Ihardware/interfaces/sensors/1.0/default/include -Ihardware/libhardware/include -Isystem/media/audio/include -Isystem/core/libcutils/include_vndk -Isystem/core/libsystem/include -Isystem/bt/types

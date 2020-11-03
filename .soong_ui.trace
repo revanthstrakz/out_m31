@@ -1,0 +1,46 @@
+1604412928915726 B microfactory /home/colab/out/microfactory_Linux
+1604412928915827 B findDeps
+1604412928916137 E findDeps
+1604412928916182 B check compile github.com/google/blueprint/microfactory
+1604412928916362 E check compile github.com/google/blueprint/microfactory
+1604412928916381 B check compile main
+1604412928916460 E check compile main
+1604412928916467 B check link main
+1604412928916492 E check link main
+1604412928916524 B findDeps
+1604412928923229 E findDeps
+1604412928923410 B check compile github.com/golang/protobuf/proto
+1604412928923465 B check compile android/soong/ui/logger
+1604412928923581 E check compile android/soong/ui/logger
+1604412928923640 B check compile github.com/google/blueprint/microfactory
+1604412928923762 E check compile github.com/google/blueprint/microfactory
+1604412928923801 B check compile android/soong/finder/fs
+1604412928924138 E check compile android/soong/finder/fs
+1604412928924169 B check compile android/soong/finder
+1604412928924389 E check compile android/soong/finder
+1604412928924425 B check compile android/soong/shared
+1604412928924504 E check compile android/soong/shared
+1604412928924520 B check compile android/soong/ui/build/paths
+1604412928924638 E check compile android/soong/ui/build/paths
+1604412928924895 E check compile github.com/golang/protobuf/proto
+1604412928924925 B check compile android/soong/ui/status/build_error_proto
+1604412928924952 B check compile android/soong/ui/status/ninja_frontend
+1604412928925059 E check compile android/soong/ui/status/build_error_proto
+1604412928925072 B check compile android/soong/ui/metrics/metrics_proto
+1604412928925084 E check compile android/soong/ui/status/ninja_frontend
+1604412928925093 B check compile android/soong/ui/status
+1604412928925214 E check compile android/soong/ui/metrics/metrics_proto
+1604412928925389 E check compile android/soong/ui/status
+1604412928925415 B check compile android/soong/ui/tracer
+1604412928925422 B check compile android/soong/ui/terminal
+1604412928925562 E check compile android/soong/ui/tracer
+1604412928925637 B check compile android/soong/ui/metrics
+1604412928925669 E check compile android/soong/ui/terminal
+1604412928925770 E check compile android/soong/ui/metrics
+1604412928925787 B check compile android/soong/ui/build
+1604412928930502 E check compile android/soong/ui/build
+1604412928930549 B check compile main
+1604412928930684 E check compile main
+1604412928930693 B check link main
+1604412928930719 E check link main
+1604412928930729 E microfactory /home/colab/out/microfactory_Linux

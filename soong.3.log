@@ -1,0 +1,71 @@
+2020/11/03 14:04:44.974845 build/soong/cmd/soong_ui/main.go:182: Took 31ms to start up.
+2020/11/03 14:04:46.573648 build/soong/ui/build/build.go:129: Starting build with args: [installclean]
+2020/11/03 14:04:46.573742 build/soong/ui/build/build.go:130: Environment: [LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36: ORIGINAL_PWD=/home/colab SSH_CONNECTION=127.0.0.1 34776 127.0.0.1 22 LESSCLOSE=/usr/bin/lesspipe %s %s TARGET_PRODUCT=lineage_m31 OLDPWD=/home/colab OUT=/home/colab/out/target/product/m31 BUILD_ENV_SEQUENCE_NUMBER=13 TRACE_BEGIN_SOONG=1604412284942957640 TARGET_BUILD_VARIANT=userdebug USER=colab TOP=/home/colab TARGET_GCC_VERSION=4.9 ASAN_OPTIONS=detect_leaks=0 PWD=/home/colab HOME=/home/colab SSH_CLIENT=127.0.0.1 34776 22 USE_CCACHE=1 LINEAGE_BUILD=m31 SSH_TTY=/dev/pts/0 MAIL=/var/mail/colab TARGET_BUILD_TYPE=release TERM=xterm-256color SHELL=/bin/bash ANDROID_BUILD_PATHS=/home/colab/out/soong/host/linux-x86/bin:/home/colab/out/host/linux-x86/bin:/home/colab/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:/home/colab/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:/home/colab/development/scripts:/home/colab/prebuilts/devtools/tools:/home/colab/external/selinux/prebuilts/bin:/home/colab/prebuilts/misc/linux-x86/dtc:/home/colab/prebuilts/misc/linux-x86/libufdt:/home/colab/prebuilts/android-emulator/linux-x86_64:/home/colab/prebuilts/asuite/acloud/linux-x86:/home/colab/prebuilts/asuite/aidegen/linux-x86:/home/colab/prebuilts/asuite/atest/linux-x86: SHLVL=2 PYTHONPATH=/home/colab/development/python-packages: ANDROID_PYTHONPATH=/home/colab/development/python-packages: LOGNAME=colab TARGET_BUILD_APPS= GCC_COLORS=error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01 LESSOPEN=| /usr/bin/lesspipe %s OUT_DIR=out PYTHONDONTWRITEBYTECODE=1 TMPDIR=/home/colab/out/soong/.temp LC_MESSAGES=C LANG=C.UTF-8 JAVA_HOME=/home/colab/prebuilts/jdk/jdk9/linux-x86 ANDROID_JAVA_HOME=prebuilts/jdk/jdk9/linux-x86 ANDROID_JAVA8_HOME=prebuilts/jdk/jdk8/linux-x86 ANDROID_JAVA9_HOME=prebuilts/jdk/jdk9/linux-x86 PATH=/home/colab/prebuilts/jdk/jdk9/linux-x86/bin:/home/colab/prebuilts/jdk/jdk9/linux-x86/bin:/home/colab/out/soong/host/linux-x86/bin:/home/colab/out/host/linux-x86/bin:/home/colab/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:/home/colab/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:/home/colab/development/scripts:/home/colab/prebuilts/devtools/tools:/home/colab/external/selinux/prebuilts/bin:/home/colab/prebuilts/misc/linux-x86/dtc:/home/colab/prebuilts/misc/linux-x86/libufdt:/home/colab/prebuilts/android-emulator/linux-x86_64:/home/colab/prebuilts/asuite/acloud/linux-x86:/home/colab/prebuilts/asuite/aidegen/linux-x86:/home/colab/prebuilts/asuite/atest/linux-x86:/home/colab/bin:pwd/platform-tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin BUILD_DATETIME_FILE=out/build_date.txt]
+2020/11/03 14:04:46.573780 build/soong/ui/build/build.go:131: Total RAM: 12GB
+2020/11/03 14:04:47.668967 build/soong/ui/build/sandbox_linux.go:86: [prebuilts/build-tools/linux-x86/bin/nsjail -H android-build -e -u nobody -g nogroup -B / --disable_clone_newcgroup -- /bin/bash -c if [ $(hostname) == "android-build" ]; then echo "Android" "Success"; else echo Failure; fi]
+2020/11/03 14:04:47.675410 build/soong/ui/build/sandbox_linux.go:93: Build sandboxing disabled due to nsjail error.
+2020/11/03 14:04:47.675461 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Mode: STANDALONE_ONCE
+2020/11/03 14:04:47.675479 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Jail parameters: hostname:'android-build', chroot:'', process:'/bin/bash', bind:[::]:0, max_conns_per_ip:0, time_limit:0, personality:0, daemonize:false, clone_newnet:true, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:false, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+2020/11/03 14:04:47.675488 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Mount point: '/' flags:MS_RDONLY type:'tmpfs' options:'' is_dir:true
+2020/11/03 14:04:47.675496 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Mount point: '/' -> '/' flags:MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' is_dir:true
+2020/11/03 14:04:47.675504 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Mount point: '/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true
+2020/11/03 14:04:47.675512 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Uid map: inside_uid:65534 outside_uid:1000 count:1 newuidmap:false
+2020/11/03 14:04:47.675520 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:47+0000] Gid map: inside_gid:65534 outside_gid:1000 count:1 newgidmap:false
+2020/11/03 14:04:47.675528 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:47+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():204 mount(''/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true') src:'none' dstpath:'/tmp/nsjail.1000.root//proc' failed: Operation not permitted
+2020/11/03 14:04:47.675535 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:47+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():209 procfs can only be mounted if the original /proc doesn't have any other file-systems mounted on top of it (e.g. /dev/null on top of /proc/kcore): Operation not permitted
+2020/11/03 14:04:47.675543 build/soong/ui/build/sandbox_linux.go:96: [F][2020-11-03T14:04:47+0000][1] bool subproc::runChild(nsjconf_t *, int, int, int)():433 Launching child process failed
+2020/11/03 14:04:47.675552 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:47+0000][38359] bool subproc::runChild(nsjconf_t *, int, int, int)():461 Received error message from the child process before it has been executed
+2020/11/03 14:04:47.675558 build/soong/ui/build/sandbox_linux.go:96: [E][2020-11-03T14:04:47+0000][38359] int nsjail::standaloneMode(nsjconf_t *)():146 Couldn't launch the child process
+2020/11/03 14:04:47.675569 build/soong/ui/build/sandbox_linux.go:102: nsjail failed with exit status 255
+2020/11/03 14:04:47.675589 build/soong/ui/build/exec.go:57: prebuilts/build-tools/linux-x86/bin/ckati [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=installclean]
+2020/11/03 14:04:48.126916 build/soong/ui/build/dumpvars.go:109: NINJA_GOALS installclean
+2020/11/03 14:04:48.126974 build/soong/ui/build/dumpvars.go:109: KATI_GOALS 
+2020/11/03 14:04:48.126983 build/soong/ui/build/dumpvars.go:109: TARGET_DEVICE m31
+2020/11/03 14:04:48.126990 build/soong/ui/build/dumpvars.go:109: TARGET_DEVICE_DIR device/samsung/m31
+2020/11/03 14:04:48.127007 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_DUP_RULES 
+2020/11/03 14:04:48.127013 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_PHONY_TARGETS 
+2020/11/03 14:04:48.127021 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_USES_NETWORK 
+2020/11/03 14:04:48.127030 build/soong/ui/build/dumpvars.go:109: BOARD_VNDK_VERSION current
+2020/11/03 14:04:48.127039 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_ANDROIDMK_EXPORTS 
+2020/11/03 14:04:48.127048 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_DUP_COPY_HEADERS 
+2020/11/03 14:04:48.127056 build/soong/ui/build/dumpvars.go:109: BUILD_BROKEN_ENG_DEBUG_TAGS 
+2020/11/03 14:04:48.127066 build/soong/ui/build/dumpvars.go:109: TARGET_PRODUCT lineage_m31
+2020/11/03 14:04:48.127075 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_VARIANT userdebug
+2020/11/03 14:04:48.127083 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_APPS 
+2020/11/03 14:04:48.127090 build/soong/ui/build/dumpvars.go:109: CC_WRAPPER 
+2020/11/03 14:04:48.127095 build/soong/ui/build/dumpvars.go:109: CXX_WRAPPER 
+2020/11/03 14:04:48.127100 build/soong/ui/build/dumpvars.go:109: JAVAC_WRAPPER 
+2020/11/03 14:04:48.127106 build/soong/ui/build/dumpvars.go:109: CCACHE_COMPILERCHECK 
+2020/11/03 14:04:48.127114 build/soong/ui/build/dumpvars.go:109: CCACHE_SLOPPINESS 
+2020/11/03 14:04:48.127123 build/soong/ui/build/dumpvars.go:109: CCACHE_BASEDIR 
+2020/11/03 14:04:48.127131 build/soong/ui/build/dumpvars.go:109: CCACHE_CPP2 
+2020/11/03 14:04:48.127215 build/soong/ui/build/dumpvars.go:109: PLATFORM_VERSION_CODENAME REL
+2020/11/03 14:04:48.127227 build/soong/ui/build/dumpvars.go:109: PLATFORM_VERSION 10
+2020/11/03 14:04:48.127236 build/soong/ui/build/dumpvars.go:109: LINEAGE_VERSION 17.1-20201103-UNOFFICIAL-m31
+2020/11/03 14:04:48.127245 build/soong/ui/build/dumpvars.go:109: TARGET_PRODUCT lineage_m31
+2020/11/03 14:04:48.127254 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_VARIANT userdebug
+2020/11/03 14:04:48.127262 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_TYPE release
+2020/11/03 14:04:48.127271 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_APPS 
+2020/11/03 14:04:48.127279 build/soong/ui/build/dumpvars.go:109: TARGET_ARCH arm64
+2020/11/03 14:04:48.127284 build/soong/ui/build/dumpvars.go:109: TARGET_ARCH_VARIANT armv8-a
+2020/11/03 14:04:48.127306 build/soong/ui/build/dumpvars.go:109: TARGET_CPU_VARIANT cortex-a73
+2020/11/03 14:04:48.127317 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_ARCH arm
+2020/11/03 14:04:48.127326 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_ARCH_VARIANT armv8-a
+2020/11/03 14:04:48.127335 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_CPU_VARIANT cortex-a53
+2020/11/03 14:04:48.127344 build/soong/ui/build/dumpvars.go:109: HOST_ARCH x86_64
+2020/11/03 14:04:48.127353 build/soong/ui/build/dumpvars.go:109: HOST_2ND_ARCH x86
+2020/11/03 14:04:48.127361 build/soong/ui/build/dumpvars.go:109: HOST_OS linux
+2020/11/03 14:04:48.127371 build/soong/ui/build/dumpvars.go:109: HOST_OS_EXTRA Linux-4.19.112+-x86_64-Ubuntu-18.04.5-LTS
+2020/11/03 14:04:48.127379 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_OS windows
+2020/11/03 14:04:48.127384 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_ARCH x86
+2020/11/03 14:04:48.127393 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_2ND_ARCH x86_64
+2020/11/03 14:04:48.127402 build/soong/ui/build/dumpvars.go:109: HOST_BUILD_TYPE release
+2020/11/03 14:04:48.127411 build/soong/ui/build/dumpvars.go:109: BUILD_ID QQ3A.200805.001
+2020/11/03 14:04:48.127419 build/soong/ui/build/dumpvars.go:109: OUT_DIR out
+2020/11/03 14:04:48.127428 build/soong/ui/build/dumpvars.go:109: AUX_OS_VARIANT_LIST 
+2020/11/03 14:04:48.127436 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_PDK 
+2020/11/03 14:04:48.127445 build/soong/ui/build/dumpvars.go:109: PDK_FUSION_PLATFORM_ZIP 
+2020/11/03 14:04:48.127454 build/soong/ui/build/dumpvars.go:109: PRODUCT_SOONG_NAMESPACES device/samsung/universal9610-common vendor/samsung/universal9610-common device/samsung/m31
+2020/11/03 14:04:48.127469 build/soong/ui/build/dumpvars.go:109: WITH_SU 
+2020/11/03 14:04:48.127475 build/soong/ui/build/dumpvars.go:109: WITH_GMS 
+2020/11/03 14:04:48.127998 build/soong/ui/build/build.go:172: Deleted images and staging directories.

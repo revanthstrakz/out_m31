@@ -1,0 +1,70 @@
+2020/11/03 14:04:42.598249 build/soong/cmd/soong_ui/main.go:182: Took 30ms to start up.
+2020/11/03 14:04:44.281074 build/soong/ui/build/sandbox_linux.go:86: [prebuilts/build-tools/linux-x86/bin/nsjail -H android-build -e -u nobody -g nogroup -B / --disable_clone_newcgroup -- /bin/bash -c if [ $(hostname) == "android-build" ]; then echo "Android" "Success"; else echo Failure; fi]
+2020/11/03 14:04:44.301586 build/soong/ui/build/sandbox_linux.go:93: Build sandboxing disabled due to nsjail error.
+2020/11/03 14:04:44.301649 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Mode: STANDALONE_ONCE
+2020/11/03 14:04:44.301663 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Jail parameters: hostname:'android-build', chroot:'', process:'/bin/bash', bind:[::]:0, max_conns_per_ip:0, time_limit:0, personality:0, daemonize:false, clone_newnet:true, clone_newuser:true, clone_newns:true, clone_newpid:true, clone_newipc:true, clone_newuts:true, clone_newcgroup:false, keep_caps:false, disable_no_new_privs:false, max_cpus:0
+2020/11/03 14:04:44.301675 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Mount point: '/' flags:MS_RDONLY type:'tmpfs' options:'' is_dir:true
+2020/11/03 14:04:44.301685 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Mount point: '/' -> '/' flags:MS_BIND|MS_REC|MS_PRIVATE type:'' options:'' is_dir:true
+2020/11/03 14:04:44.301693 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Mount point: '/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true
+2020/11/03 14:04:44.301700 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Uid map: inside_uid:65534 outside_uid:1000 count:1 newuidmap:false
+2020/11/03 14:04:44.301708 build/soong/ui/build/sandbox_linux.go:96: [I][2020-11-03T14:04:44+0000] Gid map: inside_gid:65534 outside_gid:1000 count:1 newgidmap:false
+2020/11/03 14:04:44.301716 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:44+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():204 mount(''/proc' flags:MS_RDONLY type:'proc' options:'' is_dir:true') src:'none' dstpath:'/tmp/nsjail.1000.root//proc' failed: Operation not permitted
+2020/11/03 14:04:44.301725 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:44+0000][1] bool mnt::mountPt(mount_t *, const char *, const char *)():209 procfs can only be mounted if the original /proc doesn't have any other file-systems mounted on top of it (e.g. /dev/null on top of /proc/kcore): Operation not permitted
+2020/11/03 14:04:44.301735 build/soong/ui/build/sandbox_linux.go:96: [W][2020-11-03T14:04:44+0000][38261] bool subproc::runChild(nsjconf_t *, int, int, int)():461 Received error message from the child process before it has been executed
+2020/11/03 14:04:44.301743 build/soong/ui/build/sandbox_linux.go:96: [E][2020-11-03T14:04:44+0000][38261] int nsjail::standaloneMode(nsjconf_t *)():146 Couldn't launch the child process
+2020/11/03 14:04:44.301750 build/soong/ui/build/sandbox_linux.go:96: [F][2020-11-03T14:04:44+0000][1] bool subproc::runChild(nsjconf_t *, int, int, int)():433 Launching child process failed
+2020/11/03 14:04:44.301762 build/soong/ui/build/sandbox_linux.go:102: nsjail failed with exit status 255
+2020/11/03 14:04:44.301783 build/soong/ui/build/exec.go:57: prebuilts/build-tools/linux-x86/bin/ckati [prebuilts/build-tools/linux-x86/bin/ckati -f build/make/core/config.mk --color_warnings --kati_stats dump-many-vars MAKECMDGOALS=]
+2020/11/03 14:04:44.902929 build/soong/ui/build/dumpvars.go:109: 2ND_TARGET_GCC_VERSION 4.9
+2020/11/03 14:04:44.902984 build/soong/ui/build/dumpvars.go:109: ANDROID_BUILD_PATHS /home/colab/out/soong/host/linux-x86/bin:/home/colab/out/host/linux-x86/bin
+2020/11/03 14:04:44.902997 build/soong/ui/build/dumpvars.go:109: COMMON_LUNCH_CHOICES aosp_arm-eng aosp_arm64-eng aosp_car_arm-userdebug aosp_car_arm64-userdebug aosp_car_x86-userdebug aosp_car_x86_64-userdebug aosp_x86-eng aosp_x86_64-eng car_x86_64-userdebug lineage_arm-userdebug lineage_arm64-userdebug lineage_m31-eng lineage_m31-user lineage_m31-userdebug lineage_x86-userdebug lineage_x86_64-userdebug m_e_arm-userdebug mini_emulator_arm64-userdebug mini_emulator_x86-userdebug mini_emulator_x86_64-userdebug qemu_trusty_arm64-userdebug uml-userdebug
+2020/11/03 14:04:44.903016 build/soong/ui/build/dumpvars.go:109: HOST_PREBUILT_TAG linux-x86
+2020/11/03 14:04:44.903023 build/soong/ui/build/dumpvars.go:109: PRODUCT_OUT out/target/product/m31
+2020/11/03 14:04:44.903029 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_ARCH arm
+2020/11/03 14:04:44.903035 build/soong/ui/build/dumpvars.go:109: TARGET_ARCH arm64
+2020/11/03 14:04:44.903044 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_VARIANT userdebug
+2020/11/03 14:04:44.903053 build/soong/ui/build/dumpvars.go:109: TARGET_DEVICE m31
+2020/11/03 14:04:44.903062 build/soong/ui/build/dumpvars.go:109: TARGET_GCC_VERSION 4.9
+2020/11/03 14:04:44.903070 build/soong/ui/build/dumpvars.go:109: TARGET_PLATFORM_VERSION QP1A
+2020/11/03 14:04:44.903079 build/soong/ui/build/dumpvars.go:109: TARGET_PRODUCT lineage_m31
+2020/11/03 14:04:44.903088 build/soong/ui/build/dumpvars.go:109: print 
+2020/11/03 14:04:44.903097 build/soong/ui/build/dumpvars.go:109: ANDROID_GCC_PREBUILTS prebuilts/gcc/linux-x86
+2020/11/03 14:04:44.903105 build/soong/ui/build/dumpvars.go:109: ANDROID_JAVA_HOME prebuilts/jdk/jdk9/linux-x86
+2020/11/03 14:04:44.903111 build/soong/ui/build/dumpvars.go:109: ANDROID_JAVA_TOOLCHAIN prebuilts/jdk/jdk9/linux-x86/bin
+2020/11/03 14:04:44.903117 build/soong/ui/build/dumpvars.go:109: ANDROID_PREBUILTS prebuilt/linux-x86
+2020/11/03 14:04:44.903122 build/soong/ui/build/dumpvars.go:109: HOST_OUT out/host/linux-x86
+2020/11/03 14:04:44.903130 build/soong/ui/build/dumpvars.go:109: HOST_OUT_TESTCASES out/host/linux-x86/testcases
+2020/11/03 14:04:44.903138 build/soong/ui/build/dumpvars.go:109: PRODUCT_OUT out/target/product/m31
+2020/11/03 14:04:44.903147 build/soong/ui/build/dumpvars.go:109: TARGET_OUT_SHARED_LIBRARIES_UNSTRIPPED out/target/product/m31/symbols/system/lib
+2020/11/03 14:04:44.903156 build/soong/ui/build/dumpvars.go:109: TARGET_OUT_TESTCASES out/target/product/m31/testcases
+2020/11/03 14:04:44.903165 build/soong/ui/build/dumpvars.go:109: TARGET_OUT_UNSTRIPPED out/target/product/m31/symbols
+2020/11/03 14:04:44.903174 build/soong/ui/build/dumpvars.go:109: TARGET_OUT_VENDOR_SHARED_LIBRARIES_UNSTRIPPED out/target/product/m31/symbols/vendor/lib
+2020/11/03 14:04:44.903182 build/soong/ui/build/dumpvars.go:109: print 
+2020/11/03 14:04:44.903191 build/soong/ui/build/dumpvars.go:109: PLATFORM_VERSION_CODENAME REL
+2020/11/03 14:04:44.903200 build/soong/ui/build/dumpvars.go:109: PLATFORM_VERSION 10
+2020/11/03 14:04:44.903210 build/soong/ui/build/dumpvars.go:109: LINEAGE_VERSION 17.1-20201103-UNOFFICIAL-m31
+2020/11/03 14:04:44.903217 build/soong/ui/build/dumpvars.go:109: TARGET_PRODUCT lineage_m31
+2020/11/03 14:04:44.903226 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_VARIANT userdebug
+2020/11/03 14:04:44.903235 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_TYPE release
+2020/11/03 14:04:44.903243 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_APPS 
+2020/11/03 14:04:44.903252 build/soong/ui/build/dumpvars.go:109: TARGET_ARCH arm64
+2020/11/03 14:04:44.903260 build/soong/ui/build/dumpvars.go:109: TARGET_ARCH_VARIANT armv8-a
+2020/11/03 14:04:44.903269 build/soong/ui/build/dumpvars.go:109: TARGET_CPU_VARIANT cortex-a73
+2020/11/03 14:04:44.903277 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_ARCH arm
+2020/11/03 14:04:44.903286 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_ARCH_VARIANT armv8-a
+2020/11/03 14:04:44.903322 build/soong/ui/build/dumpvars.go:109: TARGET_2ND_CPU_VARIANT cortex-a53
+2020/11/03 14:04:44.903335 build/soong/ui/build/dumpvars.go:109: HOST_ARCH x86_64
+2020/11/03 14:04:44.903343 build/soong/ui/build/dumpvars.go:109: HOST_2ND_ARCH x86
+2020/11/03 14:04:44.903352 build/soong/ui/build/dumpvars.go:109: HOST_OS linux
+2020/11/03 14:04:44.903361 build/soong/ui/build/dumpvars.go:109: HOST_OS_EXTRA Linux-4.19.112+-x86_64-Ubuntu-18.04.5-LTS
+2020/11/03 14:04:44.903369 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_OS windows
+2020/11/03 14:04:44.903383 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_ARCH x86
+2020/11/03 14:04:44.903388 build/soong/ui/build/dumpvars.go:109: HOST_CROSS_2ND_ARCH x86_64
+2020/11/03 14:04:44.903397 build/soong/ui/build/dumpvars.go:109: HOST_BUILD_TYPE release
+2020/11/03 14:04:44.903405 build/soong/ui/build/dumpvars.go:109: BUILD_ID QQ3A.200805.001
+2020/11/03 14:04:44.903413 build/soong/ui/build/dumpvars.go:109: AUX_OS_VARIANT_LIST 
+2020/11/03 14:04:44.903422 build/soong/ui/build/dumpvars.go:109: TARGET_BUILD_PDK 
+2020/11/03 14:04:44.903431 build/soong/ui/build/dumpvars.go:109: PDK_FUSION_PLATFORM_ZIP 
+2020/11/03 14:04:44.903440 build/soong/ui/build/dumpvars.go:109: PRODUCT_SOONG_NAMESPACES device/samsung/universal9610-common vendor/samsung/universal9610-common device/samsung/m31
+2020/11/03 14:04:44.903448 build/soong/ui/build/dumpvars.go:109: WITH_SU 
+2020/11/03 14:04:44.903457 build/soong/ui/build/dumpvars.go:109: WITH_GMS 

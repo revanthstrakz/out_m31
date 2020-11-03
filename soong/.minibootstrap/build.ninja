@@ -1,0 +1,5 @@
+bootstrapBuildDir = out/soong
+topFile = ./Android.bp
+extraArgs =  -t -l out/.module_paths/Android.bp.list
+builddir = out
+include ./build/blueprint/bootstrap/build.ninja
